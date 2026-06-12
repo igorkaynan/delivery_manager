@@ -89,7 +89,7 @@ Visualização dos principais indicadores operacionais da aplicação.
 - Gráfico de distribuição por status
 
 <img width="1366" height="768" alt="dashboard" src="https://github.com/user-attachments/assets/5c33488f-b235-453b-9e83-9843d2fe74f2" />
-
+<img width="1366" height="768" alt="usuarios" src="https://github.com/user-attachments/assets/c1ec1571-2dfd-489c-a5e1-1fe8516b7aa9" />
 
 ---
 
@@ -104,7 +104,7 @@ Funcionalidades:
 - Exclusão de usuários
 - Senhas criptografadas com BCrypt
 
-![Usuários](screenshots/usuarios.png)
+<img width="1366" height="768" alt="usuarios" src="https://github.com/user-attachments/assets/4d016a97-bb44-404c-bb48-da578dba535f" />
 
 ---
 
@@ -127,7 +127,7 @@ Status disponíveis:
 - COMPLETED
 - CANCELED
 
-![Pedidos](screenshots/pedidos.png)
+<img width="1362" height="765" alt="pedidos" src="https://github.com/user-attachments/assets/676eb8e9-189d-419d-8ab8-083a40a49a84" />
 
 ---
 
@@ -145,7 +145,7 @@ Eventos auditados:
 - Exclusão de pedido
 - Consumo RabbitMQ
 
-![Auditoria](screenshots/auditoria.png)
+<img width="1366" height="768" alt="auditoria" src="https://github.com/user-attachments/assets/bb9696c3-283f-43e4-86a3-303569c04ef5" />
 
 ---
 
@@ -165,7 +165,7 @@ Monitoramentos disponíveis:
 
 Dados obtidos através do Spring Boot Actuator.
 
-![Monitoramento](screenshots/monitoramento.png)
+<img width="1366" height="768" alt="monitoramento" src="https://github.com/user-attachments/assets/1737e67d-bd6e-40b8-87e8-b1dab2994986" />
 
 ---
 
@@ -181,7 +181,7 @@ Indicadores:
 - Total via PL/SQL
 - Resumo por status
 
-![Relatórios](screenshots/relatorios.png)
+<img width="1366" height="768" alt="relatorios" src="https://github.com/user-attachments/assets/078909ea-8d46-47bc-aec6-88c2a6ffd3c3" />
 
 ---
 

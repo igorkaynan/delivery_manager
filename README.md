@@ -88,7 +88,6 @@ Visualização dos principais indicadores operacionais da aplicação.
 - Pedidos em processamento
 - Gráfico de distribuição por status
 
-![Dashboard](screenshots/dashboard.png)
 <img width="1366" height="768" alt="dashboard" src="https://github.com/user-attachments/assets/5c33488f-b235-453b-9e83-9843d2fe74f2" />
 
 

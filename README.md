@@ -1,4 +1,4 @@
-# 🚚 Delivery Manager | Full Stack Order Management Platform
+# Delivery Manager | Full Stack Order Management Platform
 
 Sistema Full Stack para gerenciamento de pedidos, usuários, auditoria, monitoramento e mensageria, desenvolvido utilizando Java, Spring Boot, Oracle Database, MongoDB, RabbitMQ e Vue.js.
 

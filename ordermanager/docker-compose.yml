@@ -1,0 +1,13 @@
+services:
+  mongodb:
+    image: mongo:7
+    container_name: ordermanager-mongodb
+    ports:
+      - "27017:27017"
+
+  rabbitmq:
+    image: rabbitmq:4-management
+    container_name: ordermanager-rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"

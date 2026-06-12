@@ -1,8 +1,16 @@
-# 🚚 Delivery Manager
+# 🚚 Delivery Manager | Full Stack Order Management Platform
 
 Sistema Full Stack para gerenciamento de pedidos, usuários, auditoria, monitoramento e mensageria, desenvolvido utilizando Java, Spring Boot, Oracle Database, MongoDB, RabbitMQ e Vue.js.
 
-O projeto foi criado para demonstrar conhecimentos em arquitetura corporativa, integração entre bancos de dados relacionais e NoSQL, autenticação JWT, mensageria assíncrona, monitoramento de aplicações e desenvolvimento de interfaces modernas.
+O projeto foi desenvolvido para demonstrar conhecimentos em arquitetura corporativa, integração entre bancos relacionais e NoSQL, autenticação JWT, mensageria assíncrona, monitoramento de aplicações e desenvolvimento de interfaces modernas.
+
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-green)
+![Oracle](https://img.shields.io/badge/Oracle-Database-red)
+![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-green)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-Messaging-orange)
+![Vue.js](https://img.shields.io/badge/Vue.js-Frontend-42b883)
+![Docker](https://img.shields.io/badge/Docker-Containers-blue)
 
 ---
 
@@ -12,17 +20,17 @@ O Delivery Manager simula uma operação completa de gerenciamento de pedidos.
 
 A aplicação permite:
 
-- Autenticação de usuários com JWT
-- Gestão de usuários
-- Gestão de pedidos
-- Controle de status dos pedidos
-- Auditoria completa das ações do sistema
-- Integração com RabbitMQ
-- Persistência em Oracle Database
-- Auditoria em MongoDB
-- Dashboard gerencial
-- Relatórios executivos
-- Monitoramento em tempo real da aplicação
+* Autenticação de usuários com JWT
+* Gestão de usuários
+* Gestão de pedidos
+* Controle de status dos pedidos
+* Auditoria completa das ações do sistema
+* Integração com RabbitMQ
+* Persistência em Oracle Database
+* Auditoria em MongoDB
+* Dashboard gerencial
+* Relatórios executivos
+* Monitoramento em tempo real da aplicação
 
 ---
 
@@ -45,34 +53,34 @@ Oracle Mongo RabbitMQ
 
 ### Backend
 
-- Java 21
-- Spring Boot
-- Spring MVC
-- Spring Security
-- JWT Authentication
-- Spring Data JPA
-- Hibernate
-- JDBC
-- Oracle Database XE
-- MongoDB
-- RabbitMQ
-- Spring Boot Actuator
+* Java 21
+* Spring Boot
+* Spring MVC
+* Spring Security
+* JWT Authentication
+* Spring Data JPA
+* Hibernate
+* JDBC
+* Oracle Database XE
+* MongoDB
+* RabbitMQ
+* Spring Boot Actuator
 
 ### Frontend
 
-- Vue.js
-- Vue Router
-- Axios
-- Bootstrap 5
-- Chart.js
+* Vue.js
+* Vue Router
+* Axios
+* Bootstrap 5
+* Chart.js
 
 ### Infraestrutura
 
-- Docker
-- Docker Compose
-- Oracle XE
-- MongoDB
-- RabbitMQ Management
+* Docker
+* Docker Compose
+* Oracle XE
+* MongoDB
+* RabbitMQ Management
 
 ---
 
@@ -82,14 +90,13 @@ Oracle Mongo RabbitMQ
 
 Visualização dos principais indicadores operacionais da aplicação.
 
-- Total de usuários
-- Total de pedidos
-- Total retornado via Procedure PL/SQL
-- Pedidos em processamento
-- Gráfico de distribuição por status
+* Total de usuários
+* Total de pedidos
+* Total retornado via Procedure PL/SQL
+* Pedidos em processamento
+* Gráfico de distribuição por status
 
 <img width="1366" height="768" alt="dashboard" src="https://github.com/user-attachments/assets/5c33488f-b235-453b-9e83-9843d2fe74f2" />
-<img width="1366" height="768" alt="usuarios" src="https://github.com/user-attachments/assets/c1ec1571-2dfd-489c-a5e1-1fe8516b7aa9" />
 
 ---
 
@@ -99,10 +106,10 @@ Tela responsável pelo gerenciamento dos usuários cadastrados no sistema.
 
 Funcionalidades:
 
-- Cadastro de usuários
-- Listagem de usuários
-- Exclusão de usuários
-- Senhas criptografadas com BCrypt
+* Cadastro de usuários
+* Listagem de usuários
+* Exclusão de usuários
+* Senhas criptografadas com BCrypt
 
 <img width="1366" height="768" alt="usuarios" src="https://github.com/user-attachments/assets/4d016a97-bb44-404c-bb48-da578dba535f" />
 
@@ -114,18 +121,18 @@ Controle completo dos pedidos realizados.
 
 Funcionalidades:
 
-- Cadastro de pedidos
-- Alteração de status
-- Exclusão de pedidos
-- Integração com RabbitMQ
-- Controle operacional
+* Cadastro de pedidos
+* Alteração de status
+* Exclusão de pedidos
+* Integração com RabbitMQ
+* Controle operacional
 
 Status disponíveis:
 
-- CREATED
-- PROCESSING
-- COMPLETED
-- CANCELED
+* CREATED
+* PROCESSING
+* COMPLETED
+* CANCELED
 
 <img width="1362" height="765" alt="pedidos" src="https://github.com/user-attachments/assets/676eb8e9-189d-419d-8ab8-083a40a49a84" />
 
@@ -137,13 +144,13 @@ Todas as ações importantes do sistema são registradas no MongoDB.
 
 Eventos auditados:
 
-- Login
-- Cadastro de usuário
-- Exclusão de usuário
-- Criação de pedido
-- Alteração de status
-- Exclusão de pedido
-- Consumo RabbitMQ
+* Login
+* Cadastro de usuário
+* Exclusão de usuário
+* Criação de pedido
+* Alteração de status
+* Exclusão de pedido
+* Consumo RabbitMQ
 
 <img width="1366" height="768" alt="auditoria" src="https://github.com/user-attachments/assets/bb9696c3-283f-43e4-86a3-303569c04ef5" />
 
@@ -155,13 +162,13 @@ Tela responsável por exibir a saúde da aplicação.
 
 Monitoramentos disponíveis:
 
-- Spring Boot API
-- Oracle Database
-- MongoDB
-- RabbitMQ
-- Espaço em disco
-- Readiness
-- Liveness
+* Spring Boot API
+* Oracle Database
+* MongoDB
+* RabbitMQ
+* Espaço em disco
+* Readiness
+* Liveness
 
 Dados obtidos através do Spring Boot Actuator.
 
@@ -175,13 +182,27 @@ Painel consolidado de informações gerenciais.
 
 Indicadores:
 
-- Total de usuários
-- Total de pedidos
-- Total concluídos
-- Total via PL/SQL
-- Resumo por status
+* Total de usuários
+* Total de pedidos
+* Total concluídos
+* Total via PL/SQL
+* Resumo por status
 
 <img width="1366" height="768" alt="relatorios" src="https://github.com/user-attachments/assets/078909ea-8d46-47bc-aec6-88c2a6ffd3c3" />
+
+---
+
+# ⭐ Diferenciais Técnicos
+
+* Arquitetura Full Stack completa
+* Oracle Database + MongoDB
+* RabbitMQ para processamento assíncrono
+* Autenticação JWT
+* Auditoria centralizada
+* Relatórios com JDBC e PL/SQL
+* Monitoramento com Spring Actuator
+* Dashboard operacional
+* Docker Compose para ambiente local
 
 ---
 
@@ -204,7 +225,7 @@ Fluxo:
 Ao criar um pedido:
 
 1. Pedido é salvo no Oracle
-2. Evento é enviado para fila RabbitMQ
+2. Evento é enviado para RabbitMQ
 3. Consumidor recebe a mensagem
 4. Auditoria registra o processamento
 
@@ -216,38 +237,16 @@ Ao criar um pedido:
 
 Responsável por armazenar:
 
-- Usuários
-- Pedidos
-- Relatórios
+* Usuários
+* Pedidos
+* Relatórios
 
 ## MongoDB
 
 Responsável por armazenar:
 
-- Logs de auditoria
-- Eventos do sistema
-
----
-
-# 📊 PL/SQL
-
-O sistema utiliza Procedures Oracle para geração de indicadores e relatórios.
-
-Exemplo:
-
-```sql
-CREATE OR REPLACE PROCEDURE TOTAL_PEDIDOS
-(
-    P_TOTAL OUT NUMBER
-)
-AS
-BEGIN
-    SELECT COUNT(*)
-    INTO P_TOTAL
-    FROM ORDERS;
-END;
-/
-```
+* Logs de auditoria
+* Eventos do sistema
 
 ---
 
@@ -257,9 +256,7 @@ END;
 
 ```bash
 cd ordermanager
-
 docker compose up -d
-
 mvn spring-boot:run
 ```
 
@@ -269,15 +266,11 @@ API:
 http://localhost:8080
 ```
 
----
-
 ## Frontend
 
 ```bash
 cd ordermanager-frontend
-
 npm install
-
 npm run dev
 ```
 
@@ -336,19 +329,19 @@ GET /actuator/health
 
 # ✅ Funcionalidades Implementadas
 
-- JWT Authentication
-- CRUD de Usuários
-- CRUD de Pedidos
-- Oracle Database
-- MongoDB
-- RabbitMQ
-- Auditoria
-- Dashboard
-- Relatórios
-- PL/SQL
-- Monitoramento
-- Docker
-- Spring Actuator
+* JWT Authentication
+* CRUD de Usuários
+* CRUD de Pedidos
+* Oracle Database
+* MongoDB
+* RabbitMQ
+* Auditoria
+* Dashboard
+* Relatórios
+* PL/SQL
+* Monitoramento
+* Docker
+* Spring Actuator
 
 ---
 
@@ -356,4 +349,6 @@ GET /actuator/health
 
 **Igor Kaynan**
 
-Projeto desenvolvido para demonstração técnica de conhecimentos em desenvolvimento Full Stack utilizando Java, Spring Boot, Oracle Database, MongoDB, RabbitMQ e Vue.js.
+Desenvolvedor Full Stack com foco em aplicações corporativas utilizando Java, Spring Boot, Oracle Database, MongoDB, RabbitMQ e Vue.js.
+
+Projeto desenvolvido para demonstração de competências em arquitetura de software, integração de sistemas e desenvolvimento de aplicações escaláveis.
